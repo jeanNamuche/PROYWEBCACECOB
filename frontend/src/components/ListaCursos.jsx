@@ -66,7 +66,7 @@ function ListaCursos() {
                 <td className="p-3 border">{curso.horario}</td>
                 <td className="p-3 border">
                   {curso.imagen && (
-                    <img src={curso.imagen} alt="img" className="h-12" />
+                    <img src={curso.imagen} alt="img" className="imagen-curso" />
                   )}
                 </td>
                 <td className="p-3 border">

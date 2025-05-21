@@ -1,0 +1,5 @@
+.imagen-curso {
+    width: 150px;
+    height: auto;
+    object-fit: cover; /* Opcional: ajusta cómo se recorta la imagen */
+  }
