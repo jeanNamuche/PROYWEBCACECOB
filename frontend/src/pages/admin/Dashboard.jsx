@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import ListaCursos from "../../components/ListaCursos"; // Importa el componente ListaCursos
+
 import "./Dashboard.css";
 
 function Dashboard() {
@@ -20,11 +20,11 @@ function Dashboard() {
     <div style={{ padding: "2rem" }}>
       <h2>Panel Administrativo</h2>
       <div style={{ marginBottom: "1rem" }}>
-        <Link to="/admin/cursos" style={{ marginRight: "1rem" }}>Cursos</Link>
-        <Link to="/admin/crear" style={{ marginRight: "1rem" }} className="btn">Crear Curso</Link>
+        <Link to="/admin/Cursos" style={{ marginRight: "1rem" }}>Crear Cursos</Link>
+        <Link to="/admin/crear" style={{ marginRight: "1rem" }} className="btn">Crear Taller</Link>
         <Link to="/admin/talleres"style={{ marginRight: "1rem" }}>Talleres</Link>
       </div>
-      <ListaCursos /> {/* Agrega el componente ListaCursos */}
+      
       <button onClick={handleLogout}>Cerrar sesión</button>
     </div>
   );

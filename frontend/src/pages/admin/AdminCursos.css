@@ -1,0 +1,70 @@
+/* Contenedor principal */
+.crear-curso-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título */
+  .crear-curso-titulo {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  /* Formulario */
+  .crear-curso-form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .crear-curso-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .crear-curso-form input,
+  .crear-curso-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .crear-curso-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  /* Botón */
+  .btn-crear-curso {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-crear-curso:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Mensaje */
+  .mensaje {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #28a745;
+  }
